@@ -11,7 +11,7 @@ export default function Header() {
                 <span className="text-white"> Veterinaria</span>
             </h1>
             <nav className="flex gap-4 flex-col lg:flex-row mt-5 items-center lg:mt-0">
-                <Link to={"/admin/pacientes"} className="text-white text-lg uppercase font-bold"> Pacientes</Link>
+                <Link to={"/admin"} className="text-white text-lg uppercase font-bold"> Pacientes</Link>
                 <Link to={"/admin/perfil"} className="text-white text-lg uppercase font-bold"> Perfil</Link>
                 <button
                     type="button"
