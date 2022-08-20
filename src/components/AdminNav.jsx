@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function AdminNav() {
   return (
-    <nav className="gap-3">
+    <nav className="gap-4">
         <Link
             to="/admin/perfil"
             className="font-bold uppercase text-gray-800"
